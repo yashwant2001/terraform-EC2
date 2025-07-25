@@ -8,10 +8,11 @@ terraform {
 }
 
 
+
 resource "aws_instance" "web" {
-  ami           = "ami-08a6efd148b1f7504"
-  instance_type = "t3.micro"
-  key_name      = "my-key-t3"
+  ami           = "ami-0c55b159cbfafe1f0"
+  instance_type = "t2.micro"
+  key_name      = "my-key"
   tags = {
     Name = "web"
   }
