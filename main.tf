@@ -13,6 +13,6 @@ resource "aws_instance" "web" {
   instance_type = "t3.micro"
   key_name      = "my-key-t3"
   tags = {
-    Name = "webServer"
+    Name = "web"
   }
 }
