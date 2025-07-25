@@ -1,12 +1,5 @@
-terraform {
-  required_providers {
-    aws = {
-      source = "hashicorp/aws"
-      version = "6.5.0"
-    }
-  }
-}
 
+<<<<<<< HEAD
 
 resource "aws_instance" "web" {
   ami           = "ami-08a6efd148b1f7504"
@@ -16,3 +9,5 @@ resource "aws_instance" "web" {
     Name = "web"
   }
 }
+=======
+>>>>>>> 022086bb7ff07a761ee2ec929ea722f607917e5f
